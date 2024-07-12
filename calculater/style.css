@@ -1,0 +1,31 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#calculater{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+#calculater div{
+    margin-bottom: 10px;
+}
+#btn{
+    padding: 5px 10px;
+    background: black;
+    color: #fff;
+    border-radius: 10px;
+    border: 2px black white;
+}
+#btn:hover{
+    background-color: gray;
+    color: #000;
+    font-weight: 600;
+}

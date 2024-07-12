@@ -1,0 +1,28 @@
+/* <----------- Calculate the percentage of the discount------------- */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.discount{
+    width: 600px;
+    height: 250px;
+    margin: 100px;
+    padding: 10px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+
+}

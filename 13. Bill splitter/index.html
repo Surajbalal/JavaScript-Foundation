@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--  Bill splitter -->
+    <div class="Bill_splitter">
+      <h1>Bill splitter</h1>
+      <div>
+        <input type="text" id="input" placeholder="enter amount" />
+        <button id="add" onclick="addop()">+</button>
+        <button id="sum" onclick="sum()">sum</button>
+      </div>
+
+      <div>
+        <input type="text" placeholder="number of person" id="no._person" />
+        <button id="division" onclick="split_bill()">Bill</button>
+      </div>
+      <div>
+        <p>Total = <span id="total_bill"></span></p>
+        <p>Per person =<span id="per_person_bill"></span></p>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

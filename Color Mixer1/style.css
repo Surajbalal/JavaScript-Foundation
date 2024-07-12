@@ -1,0 +1,41 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+body{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+#color_mixer{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+border: 2px solid #000;
+    align-items: center;
+    justify-content: center;
+}
+#color_mixer:ch{
+    font-size:1000px ;
+}
+/* #color_mixer:nth-child() */
+.p{
+    font-size: 16px;
+}
+#color_mixer input{
+    border: 1px solid gray;
+    font-size: 12px;
+}
+#submit{
+    padding: 5px 10px;
+    background: black;
+    color: #fff;
+    border-radius: 8px;
+}
